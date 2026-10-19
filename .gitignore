@@ -1,0 +1,31 @@
+###> Fichiers sensibles (clés, mots de passe) ###
+.env
+.env.local
+.env.*.local
+.env.prod
+.env.dev
+!.env.example
+/config/secrets/prod/prod.decrypt.private.php
+/config/jwt/*.pem
+*.pem
+*.key
+###< Fichiers sensibles ###
+
+###> symfony/framework-bundle ###
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+/.phpunit.cache/
+###< phpunit/phpunit ###
+
+###> Éditeurs et système ###
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+###< Éditeurs et système ###
